@@ -1,0 +1,37 @@
+body{
+    padding: 10px;
+    background-color: rgb(232, 154, 71);
+}
+
+.container{
+    border-radius: 30px;
+    background-color: aliceblue;
+}
+
+.publish{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: aqua;
+}
+
+.btn-outline-primary{
+    background-color: rgb(194, 162, 114);
+}
+
+.img1{
+    width: 90%;
+    height: 95%;
+    border-radius: 50%;
+}
+
+@media(max-width:991px){
+    body{
+        background-color: brown;
+    }
+
+    .publish{
+        text-align: center;
+        height: 400px;
+    }
+}
